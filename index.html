@@ -450,15 +450,22 @@
           </li>
         </ul>
       </div>
-      <div class="footer-email-form__wrapper">
-        <p class="email-form__text">Subscribe</p>
-        <form>
-          <label>
-             <input type="email">
-          </label>
-          <button type="submit">Subscribe
+      <div class="footer-email-form-wrapper">
+        <p class="footer-email-form-text">Subscribe</p>
+        <form class="footer-email-form" >
+          <label for="user-subscribe-email"></label>
+          <input 
+          class="footer-email-input"
+          type="email"
+           id="user-subscribe-email" 
+           name="user-subscribe-email"
+           placeholder="E-mail">
+          
+          <button
+          class="footer-submit-btn"
+           type="submit">Subscribe
             <svg class="footer-input-btn-icon" width="24" height="24" aria-label="linkedin">
-              <use href="./icons.svg#icon-Frame-3">
+              <use href="./images/icons.svg#icon-telegram">
               </use>
             </svg>
           </button>
