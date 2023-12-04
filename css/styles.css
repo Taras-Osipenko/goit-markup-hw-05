@@ -489,6 +489,7 @@ body {
   .last-land {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
   }
   .logoin {
     color: var(--IRIS, #4d5ae5);
@@ -822,6 +823,58 @@ opacity: 0;
  outline: 2px solid #404BBF;
  
 }
+
+/* .review-form-submit-btn {
+  min-width: 117px;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 100px;
+  background-color: #fd9222;
+  color: #ffffff;
+  transition: background-color 250ms linear, color 250ms linear;
+}
+
+.review-form-submit-btn:hover,
+.review-form-submit-btn:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+} */
+
+
+.review-form-submit-btn {
+  display: block;
+  min-width: 169px;
+  padding: 16px 32px;
+  border: none;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--IRIS, #4D5AE5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+.review-form-submit-btn:hover,
+.review-form-submit-btn:focus {
+  background-color: var(--OCEAN, #404BBF);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -------------/modal window-------------------- */
 
