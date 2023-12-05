@@ -570,6 +570,11 @@ body {
   .footer-email-form-wrapper {
     margin-left: auto;
   }
+  .footer-email-form {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
 
   .footer-email-form-text {
     color: var(--WHITE, #FFF);
@@ -583,27 +588,27 @@ body {
 
   .footer-email-input {
     border-radius: 4px;
-    border: 1px solid var(--WHITE, #FFF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
     width: 264px;
     height: 40px;
-    color: white;
+    color: #ffffff;
 
     font-size: 12px;
     font-weight: 400;
     line-height: 2;
     letter-spacing: 0.04em;
 
-    padding: 8px 16px;
-    margin-right: 24px;
+    padding-left: 16px;
+   
 
-    background-color: var(--NAVY-BLUE, #2E2F42);
+    background-color: transparent;
 
     outline: 0px solid transparent;
 
   }
   .footer-email-input::placeholder {
-   color: white;
+   color: #ffffff;
   }
 
   .footer-email-input:focus {
@@ -611,21 +616,25 @@ body {
     
     }
 
-
-
-
   .footer-submit-btn {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
-    color: white;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
     padding: 8px 24px;
     min-width: 165px;
-    min-height: 40px;
-    background-color:var(--IRIS, #4D5AE5); 
+    height: 40px;
+    background-color: #4D5AE5; 
     border-radius: 4px;
-    border-color: var(--IRIS, #4D5AE5);
+    border: none;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
