@@ -758,6 +758,7 @@ body {
   stroke: rgba(255, 255, 255, 1);
   fill: rgba(255, 255, 255, 1);
   background-color: var(--OCEAN, #404BBF);
+  border: none; 
 
 }
 
@@ -926,6 +927,9 @@ border-color: #4D5AE5;
  .review-form-own-checkbox {
  background-color: #404BBF;
  border-color: #404BBF;
+ border: none;
+ fill: #F4F4FD;
+
 }
 .review-form-own-icon {
 fill: white;
