@@ -903,7 +903,9 @@ border-color: #4D5AE5;
 
 
 .review-form-own-checkbox {
+
   display: inline-flex;
+
   justify-content: center;
   align-items: center;
   width: 16px;
