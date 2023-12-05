@@ -902,7 +902,7 @@ border-color: #4D5AE5;
 
 
 
-.review-form-own-checkbox {
+.review-form-checkbox-label>span {
 
   display: inline-flex;
 
